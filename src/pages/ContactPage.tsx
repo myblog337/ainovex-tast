@@ -73,7 +73,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
               pricing model, and primary differentiator.
             </p>
             <div className="text-xs text-blue-400 font-semibold">
-              editorial@ainovex.pages.dev
+              editorial@ainovex1.pages.dev
             </div>
           </div>
 

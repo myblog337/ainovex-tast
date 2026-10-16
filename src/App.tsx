@@ -17,6 +17,7 @@ import { TOOLS } from './data/tools';
 import { CATEGORIES } from './data/categories';
 import { ARTICLES } from './data/articles';
 import { updateSeo } from './utils/seo';
+import { SITE_CONFIG } from './config/site';
 
 export default function App() {
   const [currentPath, setCurrentPath] = useState<string>(() => window.location.pathname || '/');
@@ -98,11 +99,11 @@ export default function App() {
         schema: {
           '@context': 'https://schema.org',
           '@type': 'WebSite',
-          name: 'AINOVEX',
-          url: 'https://ainovex.pages.dev/',
+          name: SITE_CONFIG.name,
+          url: `${SITE_CONFIG.url}/`,
           potentialAction: {
             '@type': 'SearchAction',
-            target: 'https://ainovex.pages.dev/tools?q={search_term_string}',
+            target: `${SITE_CONFIG.url}/tools?q={search_term_string}`,
             'query-input': 'required name=search_term_string',
           },
         },
@@ -161,8 +162,8 @@ export default function App() {
             datePublished: article.publishedAt,
             publisher: {
               '@type': 'Organization',
-              name: 'AINOVEX',
-              url: 'https://ainovex.pages.dev/',
+              name: SITE_CONFIG.name,
+              url: `${SITE_CONFIG.url}/`,
             },
           },
         });

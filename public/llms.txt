@@ -1,14 +1,14 @@
-# AINOVEX (ainovex.pages.dev)
+# AINOVEX (ainovex1.pages.dev)
 
 > Discover the Best AI Tools & Resources. Curated directory of verified artificial intelligence software, benchmarks, news, and technical workflows.
 
 ## Core Sections
-- Home: https://ainovex.pages.dev/
-- AI Tools Directory: https://ainovex.pages.dev/tools
-- Categories: https://ainovex.pages.dev/categories
-- Blog & Guides: https://ainovex.pages.dev/blog
-- About Us: https://ainovex.pages.dev/about
-- Contact & Submission: https://ainovex.pages.dev/contact
+- Home: https://ainovex1.pages.dev/
+- AI Tools Directory: https://ainovex1.pages.dev/tools
+- Categories: https://ainovex1.pages.dev/categories
+- Blog & Guides: https://ainovex1.pages.dev/blog
+- About Us: https://ainovex1.pages.dev/about
+- Contact & Submission: https://ainovex1.pages.dev/contact
 
 ## Categories Covered
 - AI Writing: Copywriting, assistants, document synthesis

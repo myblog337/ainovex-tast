@@ -1,3 +1,5 @@
+import { SITE_CONFIG } from '../config/site';
+
 export interface SeoConfig {
   title: string;
   description: string;
@@ -6,7 +8,7 @@ export interface SeoConfig {
   ogType?: 'website' | 'article';
 }
 
-const BASE_URL = 'https://ainovex.pages.dev';
+const BASE_URL = SITE_CONFIG.url;
 
 export function updateSeo(config: SeoConfig) {
   const fullTitle = config.title.includes('AINOVEX')

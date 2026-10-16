@@ -75,7 +75,7 @@ export const LegalPage: React.FC<LegalPageProps> = ({ type, onNavigate }) => {
         {type === 'privacy' && (
           <>
             <p>
-              At <strong>AINOVEX</strong> (accessible at ainovex.pages.dev), one of our main
+              At <strong>AINOVEX</strong> (accessible at ainovex1.pages.dev), one of our main
               priorities is the privacy of our visitors. This Privacy Policy document contains
               types of information that is collected and recorded by AINOVEX and how we use it.
             </p>
@@ -110,7 +110,7 @@ export const LegalPage: React.FC<LegalPageProps> = ({ type, onNavigate }) => {
           <>
             <p>
               Welcome to <strong>AINOVEX</strong>. By accessing or using our directory at
-              ainovex.pages.dev, you agree to be bound by these Terms of Service.
+              ainovex1.pages.dev, you agree to be bound by these Terms of Service.
             </p>
             <h2 className="text-xl font-bold text-white dark:text-white light:text-slate-900 mt-6 mb-3">
               1. Directory Information & Accuracy
