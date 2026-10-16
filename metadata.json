@@ -1,0 +1,6 @@
+{
+  "name": "AINOVEX - Best AI Tools, Directory & Tech Guides",
+  "description": "Discover the best AI tools, workflows, tech news, and expert guides on AINOVEX. Boost your productivity and creativity with handpicked, verified AI resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
